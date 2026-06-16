@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample data extraction rules file; used by the backup system.
+   For full documentation, see https://developer.android.com/about/versions/12/backup-restore
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="."/>
+    </device-transfer>
+</data-extraction-rules>

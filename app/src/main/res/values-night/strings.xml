@@ -1,0 +1,3 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- No overrides needed; theme is dynamic or derived from Theme.kt -->
+</resources>

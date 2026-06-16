@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android LLM</string>
+    <string name="title_activity_main">Android LLM</string>
+</resources>

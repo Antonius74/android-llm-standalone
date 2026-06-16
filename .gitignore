@@ -1,0 +1,70 @@
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+output.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild/
+.cxx/
+
+# NDK
+obj/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# APK / bundle artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Generated files
+bin/
+gen/
+out/
+
+# Proguard
+proguard/
+
+# Python virtual environments (in case the repo is opened from the wrapper folder)
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Model weights (do not commit large GGUF files)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.ort
